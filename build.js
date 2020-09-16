@@ -20,8 +20,8 @@ builder.build({
     config: {
         appId: 'helioslauncher',
         productName: 'Helios Launcher',
-        artifactName: '${productName}.${ext}',
-        copyright: 'Copyright © 2018-2019 Daniel Scalzi',
+        artifactName: '${productName}-setup-${version}.${ext}',
+        copyright: 'Copyright © 2018-2020 Daniel Scalzi',
         directories: {
             buildResources: 'build',
             output: 'dist'
